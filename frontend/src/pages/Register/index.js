@@ -28,7 +28,7 @@ function Register() {
     };
 
     try {
-      const response = await api.post('ongs', data);
+      const response = await api.post('/ongs', data);
 
       alert(`Seu ID de acesso ${response.data.id}`);
 
